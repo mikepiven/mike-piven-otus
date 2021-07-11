@@ -1,5 +1,4 @@
 import { maxItemAssociation  } from './maxItemAssociation.js'
-import { sum } from './sum.js'
 
 describe("maxItemAssociation", () => {
   it("Initial requirements", () => {
@@ -31,10 +30,3 @@ describe("maxItemAssociation", () => {
     expect(maxItemAssociation(data)).toStrictEqual(result);
   });
 });
-
-
-describe("sum", () => {
-  it("Initial requirements", () => {
-    expect(sum(1)(2)(3)()).toStrictEqual(6);
-  });
-})
